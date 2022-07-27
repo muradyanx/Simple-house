@@ -1,0 +1,105 @@
+.headerImage {
+  height: 580px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.P-header-block {
+    margin: 0 auto;
+    height: 500px;
+    align-items: flex-end;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+     
+  @media screen and(max-width:800px) {
+    padding-top: 350px;
+    
+  }
+
+.P-logo-block{
+
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    @media screen and(max-width:600px) {
+      display: none;
+          
+        }
+
+
+    .header-icon {
+        width: 80px;
+        height: 80px;
+        background-image: url('../../assets/simplelogo.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
+
+
+   
+    .P-title-block {
+        line-height: 3.8;
+        font-weight: bold;
+        line-height: 1.6;
+        font-size: 34px;
+        display: flex;
+        align-items: flex-start;
+        font-family: "Open Sans", sans-serif;
+       
+    }
+
+    .P-text-block {
+                font-weight: bold;
+                font-size: 20px;
+                font-family: "Open Sans", sans-serif;             
+            
+    }
+
+
+}
+ 
+        .P-nav-block {
+                width: 30%;
+                display: flex;
+                justify-content: space-between;
+                font-size: 22px;
+                font-family: "Open Sans", sans-serif;
+                font-weight: bold;
+                cursor: pointer;
+                @media screen and(max-width:800px) {
+              width: 45%;
+                  
+                }
+                @media screen and(max-width:600px) {
+                  flex-direction: column;
+                 
+                      
+                    }
+                a {
+                  color: white;
+                  text-decoration: none;
+                }
+            
+              .P-nav-btn:hover {
+                border-bottom: 1px solid white;
+                padding-bottom: 10px;
+              }
+            
+              .underline-on {
+                border-bottom: 1px solid white;
+                padding-bottom: 10px;
+              }
+              .underline-off {
+                border: none;
+              }
+
+    }
+
+}
+

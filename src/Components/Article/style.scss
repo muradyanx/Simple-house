@@ -1,0 +1,24 @@
+
+.article{ 
+
+.P-title {
+    font-size: 2rem;
+    margin: 60px auto;
+    font-family: 'Open Sans', sans-serif;
+
+    font-weight: 600;
+}
+
+.P-content {
+    font-size: 20px;
+   
+    color: #626364;
+    width: 58%;
+    margin: 60px auto;
+    font-family: 'Open Sans', sans-serif;
+    @media screen and(max-width: 768px) {
+        width: 90%;
+        
+      }
+}
+}
